@@ -1,0 +1,23 @@
+{
+  "name": "sampledemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed --spec cypress/integration/examples/sampletest.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunk2493/CypressApplitoolsDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunk2493/CypressApplitoolsDemo/issues"
+  },
+  "homepage": "https://github.com/arunk2493/CypressApplitoolsDemo#readme",
+  "dependencies": {
+    "@applitools/eyes-cypress": "github:applitools/eyes-cypress",
+    "cypress": "^6.0.0"
+  }
+}
